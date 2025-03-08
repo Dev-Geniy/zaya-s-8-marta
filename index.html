@@ -1,0 +1,32 @@
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>С 8 Марта, любимая!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <img src="https://i.ibb.co/3mw3G8PT/photo-2025-03-08-12-59-52.jpg" alt="Любимая" class="photo">
+        <div class="message">С 8 Марта, моя единственная! Ты — моё счастье и вдохновение. Люблю тебя безмерно!</div>
+<div class="gallery">
+            <img src="https://i.ibb.co/84NMXp7X/photo-2025-03-08-12-59-26.jpg" alt="Самая лучшая жена и самая лучшая мама" onclick="openModal(0)">
+            <img src="https://i.ibb.co/PvP5mbx4/photo-2025-03-08-12-59-21.jpg" alt="С тобой не скучно, можно ржать без особых причин сутками напролёт)" onclick="openModal(1)">
+            <img src="https://i.ibb.co/tpR55s4C/photo-2025-03-08-12-59-00.jpg" alt="Самая нежная и любимая" onclick="openModal(2)">
+            <img src="https://i.ibb.co/DBYsLyg/photo-2025-03-08-12-59-06.jpg" alt="Очень внимательная, заботливая и ответственная, тебе можно доверять 100% - это чувствуеться даже интуитивно" onclick="openModal(3)">
+            <img src="https://i.ibb.co/Jwg5bkKb/photo-2025-03-08-12-59-12.jpg" alt="Самая красивая, естественная красота и доброта - это то что тебя делает ангелом и внутри и снаружи" onclick="openModal(4)">
+            <img src="https://i.ibb.co/CsVxKXsq/photo-2025-03-08-12-58-18.jpg" alt="Твой пронзающий взгляд говорит больше тысячи сказаных слов!" onclick="openModal(5)">
+            <img src="https://i.ibb.co/6JW3XfRh/photo-2025-03-08-12-59-17.jpg" alt="Люблю видеть и делать тебя счастливой - ты этого заслуживаешь!" onclick="openModal(6)">
+            <img src="https://i.ibb.co/chmcDvK1/IMG-20240928-092835-427.jpg" alt="Самая красивая, реально! И поржать можно и поговорить на серьёзные темы и просто восхищаться твоей красотой..." onclick="openModal(7)">
+            <img src="https://i.ibb.co/ynxK7hxf/photo-2025-03-08-12-59-42.jpg" alt="С тобой очень класно проводить время и можно двинуть хоть на край света!" onclick="openModal(8)">
+        </div>
+    </div>
+    <div class="modal" id="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <span class="arrow left" onclick="changeImage(-1)">&#10094;</span>
+        <img id="modalImg" src="">
+        <span class="arrow right" onclick="changeImage(1)">&#10095;</span>
+        <div class="caption" id="caption"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
